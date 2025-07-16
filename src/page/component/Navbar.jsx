@@ -1,10 +1,14 @@
-import React from 'react';
 
 const Navbar = () => {
   return (
-    <div>
-      Naav
-    </div>
+    <nav>
+      <ul>
+        <li>Acceuil</li>
+        <li>Collections</li>
+        <li>Engagements</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
   );
 };
 
