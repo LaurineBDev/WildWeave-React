@@ -1,60 +1,55 @@
-html{
+.home {
   background: url('/bg.png') center/cover no-repeat;
-}
 
-// Setion mission ↓ =============
+  .mission,
+  .histoire {
+    display: flex;
+    align-items: center; 
 
-#select {
-  background-color: rgba(0, 0, 0, 0.601);
-  width: 1161px;
-  height: 385px;
-  border-radius: 20px;
-  margin-left: 10rem;
-  margin-top: 5rem;
-  
-  h1, p{
-    color: white;
-    font-size: 30px;
+    .select {
+      background-color: rgba(0, 0, 0, 0.6);
+      border-radius: 20px;
+      display: flex;
+      align-items: center;
+      padding: 2rem;
+      max-width: 1200px; 
+      margin: 0 auto; 
+      gap: 2rem; 
+
+      img {
+        width: 333px;
+        height: 333px;
+        object-fit: cover; // pour éviter les images déformées
+        border-radius: 10px;
+      }
+
+      .container {
+        h1, p {
+          color: white;
+          text-align: left;
+        }
+
+        h1 {
+          font-size: 2rem;
+          margin-bottom: 1rem;
+        }
+
+        p {
+          font-size: 1.1rem;
+          line-height: 1.5;
+        }
+      }
+    }
+  }
+
+  .slogan {
     text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 20px;
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 0.1rem 2rem;
+    font-size: 1.5rem;
   }
-  img {
-    width: 333px;
-    height: 333px;
-   }
-}
-
-// Select mission =========================
-.mission {
-  display: flex;
-  img {
-    margin: 20px;
-  }
-  .container{
-    margin-top: 4rem;
-  
-  }
-}
-
-// Select histoire =================================
-.histoire {
-  display: flex;
-  img {
-    margin: 20px;
-  }
-  .container{
-    margin-top: 4rem;
-  
-  }
-}
-// Slogan ================
-.slogan {
-  text-align: center;
-  color: white;
-  background-color: rgba(0, 0, 0, 0.601);
-  border-radius: 20px;
-  width: 800px;
-  height: 40px;
-  margin-left: 20rem;
-  margin-bottom: 50px;
-  margin-top: 50px;
 }
