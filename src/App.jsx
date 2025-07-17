@@ -1,7 +1,9 @@
 // src/App.jsx
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import About from "./page/About.jsx";
+
+import Collection from "./page/Collection.jsx";
 import Contact from "./page/Contact.jsx";
+import Engagement from "./page/Engagement.jsx";
 import Home from "./page/Home.jsx";
 import Navbar from "./page/component/Navbar.jsx";
 
@@ -11,8 +13,9 @@ function App() {
       <Navbar/>
       <Routes>
         <Route path="/" element={<Home />} />         
-        <Route path="/a-propos" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/collection" element={<Collection />} />
+        <Route path="/engagement" element={<Engagement />} />
+        <Route path="/contact" element={<Contact/>} />
       </Routes>
     </BrowserRouter>
   );
