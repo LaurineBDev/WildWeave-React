@@ -1,3 +1,8 @@
+nav {
+  background: url("/bg.png") center;
+  padding: 20px;
+}
+
 ul {
   display: flex;
   list-style: none;
@@ -14,11 +19,61 @@ a {
   text-decoration: none;
 }
 
-html {
+.home {
   background: url("/bg.png") center/cover no-repeat;
 }
-
-.mission img {
+.home .mission,
+.home .histoire {
+  display: flex;
+  align-items: center;
+}
+.home .mission .select,
+.home .histoire .select {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 2rem;
+}
+.home .mission .select img,
+.home .histoire .select img {
   width: 333px;
+  height: 333px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}
+.home .mission .select .container h1, .home .mission .select .container p,
+.home .histoire .select .container h1,
+.home .histoire .select .container p {
+  color: white;
+  text-align: left;
+}
+.home .mission .select .container h1,
+.home .histoire .select .container h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.home .mission .select .container p,
+.home .histoire .select .container p {
+  font-size: 1.1rem;
+  line-height: 1.5;
+}
+.home .slogan {
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 20px;
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 0.1rem 2rem;
+  font-size: 1.5rem;
+}
+
+.collection {
+  color: red;
 }
 /*# sourceMappingURL=main.css.map */
