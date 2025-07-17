@@ -1,8 +1,24 @@
-nav {
-  background-color: red;
+ul {
+  display: flex;
+  list-style: none;
+  gap: 101px;
+  justify-content: center;
 }
 
-h1 {
-  background-color: blue;
+a {
+  background-color: #DCD6C9;
+  border-radius: 20px;
+  padding: 10px 10px;
+  color: black;
+  font-size: 40px;
+  text-decoration: none;
+}
+
+html {
+  background: url("/bg.png") center/cover no-repeat;
+}
+
+.mission img {
+  width: 333px;
 }
 /*# sourceMappingURL=main.css.map */

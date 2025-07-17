@@ -1,10 +1,16 @@
-nav {
-  background-color: red;
-}
 
 ul{
   display: flex;
   list-style: none;
   gap: 101px;
   justify-content: center;
+}
+
+a{
+  background-color: #DCD6C9;
+  border-radius: 20px;
+  padding: 10px 10px;
+  color: black;
+  font-size: 40px;
+  text-decoration: none;
 }
