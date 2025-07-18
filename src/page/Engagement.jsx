@@ -2,7 +2,7 @@
 const Engagement = () => {
   return (
     <main className='engagement'>
-      <div className="top">
+      <div className="top-e">
        <h1>Chez Wild Weave, chaque vêtement est pensé pour respecter l’humain et la nature. De la fibre au fil, de l’atelier à votre dressing, nous faisons le choix d’un impact positif, pas seulement minimal.</h1>
       </div>
       <section className="card">

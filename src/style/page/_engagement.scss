@@ -1,26 +1,61 @@
 .engagement {
-    background: url('/bg.png') center/cover no-repeat;
-    h1{
-      color: white;
+  background: url('/bg.png') center/cover no-repeat;
+
+  h1 {
+    color: white;
+  }
+
+  .top-e {
+    background-color: rgba(0, 0, 0, 0.468);
+    width: 70%;
+    max-width: 1128px;
+    text-align: center;
+    border-radius: 20px;
+    margin: 2rem auto; // centré horizontalement
+    padding: 1rem;
+
+    h1 {
+      font-size: 1.2rem; // taille adaptée
     }
-    .top{
-      background-color: rgba(0, 0, 0, 0.468);
-      width: 1128px;
-      height: 136px;
-      text-align: center;
+  }
+
+  .card {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    flex-wrap: wrap; // wrap sur petit écran
+    margin: 2rem auto;
+
+    img {
+      width: 311px;
+      height: auto; // garder le ratio
       border-radius: 20px;
-      margin-left: 15rem;
-      padding: 1px;
     }
-    .card{
-      display: flex;
-      gap: 40px;
-      justify-content: center;
-      margin-top: 10px;
-      img{
-        width: 311px;
-        height: 507px;
-        border-radius: 20px;
+  }
+
+  // ========= Responsive ↓ ============
+  @media (max-width: 768px) {
+    .top-e {
+      width: 90%;
+      margin: 2rem auto;
+      margin-top: 0%;
+
+      h1 {
+        font-size: 1rem;
+        padding: 0 1rem;
       }
     }
+
+    .card {
+      flex-direction: column; // empile les images
+      align-items: center;
+      gap: 20px;
+
+      img {
+        width: 80%;
+        max-width: 311px;
+        height: auto;
+      }
+    }
+  }
 }
