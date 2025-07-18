@@ -3,11 +3,11 @@ const Contact = () => {
   return (
     <main className='contact'>
       <div className="s-content">
-      <section className='container'>
+      <section className='container-contact'>
         <a className="toform" href="#">Contactez-nous</a>
         <p>Une question, une suggestion, ou juste envie de nous dire bonjour ? L’équipe Wild Weave vous répondra dans les plus brefs délais.</p>
       </section>
-      <section className="container">
+      <section className="container-contact">
         <ul className="tel">
           <li>📧 hello@wildweave.fr</li>
           <li>🧵 Atelier Wild Weave 123 Rue du Lin, 75000 Paris</li>
@@ -15,12 +15,18 @@ const Contact = () => {
         </ul>
       </section> 
       </div>
-       <section className="follow">
+      {/* ==========Section follow============ */}
+      <section className="follow">
+        <h1>👉 Suivez-nous :</h1>
         <ul>
-         <li>👉 Suivez-nous :</li>
-         <li><a href="#"><img className="logo" src="./logo/instagram.png" alt="Lien vers notre compte Instagram" /></a></li>
+         <li><a href="#"  ><img className="logo" src="./logo/instagram.png" alt="Lien vers notre compte Instagram" /></a>
+          <h1>@wildweave</h1></li>
+         <li><a href="#"><img className="logo" src="./logo/facebook.png" alt="Lien vers notre compte Facebook" /></a>
+          <h1>Wild Weave</h1></li>
+         <li><a href="#"><img src="./logo/printerest.png" alt="Lien vers notre compte Printerest" /></a>
+          <h1>Wild Weave</h1></li>
         </ul> 
-     </section>
+      </section>
     </main>
   );
 };
