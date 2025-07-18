@@ -74,6 +74,50 @@ a {
 }
 
 .collection {
-  color: red;
+  background: url("/bg.png") center/cover no-repeat;
+}
+
+h1, h2, h3 {
+  margin: 1%;
+}
+
+.section {
+  background-color: rgba(0, 0, 0, 0.552);
+  width: 392px;
+  height: 566px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.section img {
+  width: 243px;
+  height: 365px;
+}
+
+.container {
+  display: flex;
+  padding: 24px;
+  gap: 101px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #d9d9d9;
+  color: black;
+  padding: 10px;
+  border: none;
+  border-radius: 20px;
+  width: 357px;
+  height: 35px;
+  text-align: center;
+  line-height: 35px;
+  font-size: 20px;
+  cursor: pointer;
 }
 /*# sourceMappingURL=main.css.map */

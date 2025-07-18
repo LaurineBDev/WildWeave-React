@@ -1,0 +1,26 @@
+.engagement {
+    background: url('/bg.png') center/cover no-repeat;
+    h1{
+      color: white;
+    }
+    .top{
+      background-color: rgba(0, 0, 0, 0.468);
+      width: 1128px;
+      height: 136px;
+      text-align: center;
+      border-radius: 20px;
+      margin-left: 15rem;
+      padding: 1px;
+    }
+    .card{
+      display: flex;
+      gap: 40px;
+      justify-content: center;
+      margin-top: 10px;
+      img{
+        width: 311px;
+        height: 507px;
+        border-radius: 20px;
+      }
+    }
+}
