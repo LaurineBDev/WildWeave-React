@@ -53,3 +53,38 @@
     font-size: 1.5rem;
   }
 }
+
+  /* ======= Responsive Mobile ===== */
+  @media screen and (max-width: 768px) {
+    .mission,
+    .histoire {
+      .select {
+        flex-direction: column;
+        text-align: center;
+        padding: 1rem;
+        width: 18rem;
+
+        img {
+          width: 250px;
+          height: 250px;
+        }
+
+        .container {
+          h1 {
+            font-size: 1.5rem;
+          }
+
+          p {
+            font-size: 1rem;
+            text-align: center;
+          }
+        }
+      }
+    }
+
+    .slogan {
+      font-size: 1.2rem;
+      padding: 1rem;
+      margin: 2rem auto;
+    }
+  }
