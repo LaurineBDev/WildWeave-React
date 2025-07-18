@@ -1,0 +1,57 @@
+.contact{
+    background: url('/bg.png') center/cover no-repeat;
+}
+p{
+  font-size: 30px;
+  margin-top: 0%;
+}
+// Section ↓ container ===========
+.s-content{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.container{
+  background-color: #DCD6C9;
+  width: 466px;
+  border-radius: 20px;
+  text-align: center;
+  margin-left: 11rem;
+  padding: 5px;
+ 
+}
+ .container .toform{
+  display: flex;
+  background-color: #6E8B6D;
+  width: 278px;
+  height: 40px;
+  justify-content: center;
+  margin: 0 auto;
+   
+}
+
+.tel, .logo{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 30px;
+  text-align: left;
+}
+
+// Section follow ↓ ========
+.follow{
+ 
+  margin-top: 50px;
+  background-color: #dcd6c9c8;
+  width: 466px;
+  border-radius: 20px;
+  text-align: center;
+  margin-left: 11rem;
+  padding: 5px;
+
+}
+.logo{
+  width: 57px;
+  background-color: none;
+ }

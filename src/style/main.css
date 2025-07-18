@@ -120,4 +120,31 @@ h1, h2, h3 {
   font-size: 20px;
   cursor: pointer;
 }
+
+.engagement {
+  background: url("/bg.png") center/cover no-repeat;
+}
+.engagement h1 {
+  color: white;
+}
+.engagement .top {
+  background-color: rgba(0, 0, 0, 0.468);
+  width: 1128px;
+  height: 136px;
+  text-align: center;
+  border-radius: 20px;
+  margin-left: 15rem;
+  padding: 1px;
+}
+.engagement .card {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  margin-top: 10px;
+}
+.engagement .card img {
+  width: 311px;
+  height: 507px;
+  border-radius: 20px;
+}
 /*# sourceMappingURL=main.css.map */
