@@ -4,7 +4,7 @@ const Contact = () => {
     <main className='contact'>
       <div className="s-content">
       <section className='container-contact'>
-        <a className="toform" href="#">Contactez-nous</a>
+        <a className="toform" href="/contact/form">Contactez-nous</a>
         <p>Une question, une suggestion, ou juste envie de nous dire bonjour ? L’équipe Wild Weave vous répondra dans les plus brefs délais.</p>
       </section>
       <section className="container-contact">

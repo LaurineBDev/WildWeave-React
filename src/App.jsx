@@ -2,10 +2,12 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import Collection from "./page/Collection.jsx";
-import Contact from "./page/Contact.jsx";
+import Navbar from "./page/component/Navbar.jsx";
+import Contact from './page/Contact.jsx';
+import ContactForm from './page/ContactForm.jsx';
 import Engagement from "./page/Engagement.jsx";
 import Home from "./page/Home.jsx";
-import Navbar from "./page/component/Navbar.jsx";
+
 
 function App() {
   return (
@@ -15,7 +17,8 @@ function App() {
         <Route path="/" element={<Home />} />         
         <Route path="/collection" element={<Collection />} />
         <Route path="/engagement" element={<Engagement />} />
-        <Route path="/contact" element={<Contact/>} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/contact/form" element={<ContactForm />} />
       </Routes>
     </BrowserRouter>
   );
