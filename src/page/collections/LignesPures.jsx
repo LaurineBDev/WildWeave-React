@@ -1,10 +1,9 @@
-import React from 'react';
 
 const LignesPures = () => {
   return (
-    <div>
-      <h1>Lignes pures</h1>
-    </div>
+    <main className='LignesPures'>
+      <h1>La collection Lignes Pures incarne notre engagement pour une mode respectueuse et élégante. Chaque pièce est conçue pour durer, en utilisant des matières nobles et des techniques respectueuses de l’environnement. Offrez-vous un style naturel et intemporel, tout en faisant un choix responsable.</h1>
+    </main>
   );
 };
 
