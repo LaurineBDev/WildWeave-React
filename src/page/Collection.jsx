@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+
 const Collection = () => {
   return (
     <main className="collection">
@@ -8,7 +10,7 @@ const Collection = () => {
           <h1>Sweat Natura</h1>
           <h2>Molleton bio, doux et chaud.</h2>
           <h3>100 % coton bio, teinture naturelle.</h3>
-          <a href="#" className="btn">Voir la collection&nbsp;: Lignes Pures</a>
+          <Link to="/lignespures" className="btn">Voir la collection&nbsp;: Lignes Pures</Link>
         </section>
 
         {/* ==== Section 2 ↓ ==== */}
@@ -17,7 +19,7 @@ const Collection = () => {
           <h1>Robe Éole</h1>
           <h2>Robe longue, fluide et légère.</h2>
           <h3>Lin biologique, coupe ample.</h3>
-          <a href="#" className="btn">Voir la collection&nbsp;: Brise Sauvage</a>
+          <Link to="/brise" className="btn">Voir la collection&nbsp;: Brise Sauvage</Link>
         </section>
 
         {/* ==== Section 3 ↓ ==== */}
@@ -26,7 +28,7 @@ const Collection = () => {
           <h1>Manteau Ombre</h1>
           <h2>Long manteau structuré.</h2>
           <h3>Laine recyclée, coupe droite.</h3>
-          <a href="#" className="btn">Voir la collection&nbsp;: Nocturne</a>
+          <Link to="/Nocturne" className="btn">Voir la collection&nbsp;: Nocturne</Link>
         </section>
       </div>
     </main>
