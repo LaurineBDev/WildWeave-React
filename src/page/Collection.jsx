@@ -13,7 +13,7 @@ const Collection = () => {
        </section>
        {/* ====Section 2↓===== */}
        <section className="section">
-         <img src="/Brise-Sauvage/robe.png" alt="Pull de la collection Lines pures" />
+         <img src="/Brise-Sauvage/robe.png" alt="Robe de la collection Brise Sauvage" />
          <h1>Robe Éole</h1>
          <h2>Robe longue fluide et légère.</h2>
          <h3>Lin biologique, coupe ample</h3>
@@ -22,7 +22,7 @@ const Collection = () => {
        </section>
        {/* ====Section 3↓==== */}
        <section className="section">
-         <img src="/Nocturne/manteau.png" alt="Pull de la collection Lines pures" />
+         <img src="/Nocturne/ombre.png" alt="Manteau de la collection Ombre" />
          <h1>Manteau Ombre</h1>
          <h2>Long manteau structuré.</h2>
          <h3>Laine recyclée, coupe droite</h3>
