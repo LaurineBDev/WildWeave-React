@@ -537,4 +537,29 @@ form select {
     margin-left: 50px;
   }
 }
+.LignesPures {
+  background: url("/lines-pures/bgLignes.png") center/cover no-repeat;
+  padding: 45px;
+}
+
+.intro-lignes {
+  background-color: rgba(255, 255, 255, 0.825);
+  width: 1318px;
+  height: 100%;
+  margin-left: 50px;
+  padding: 5px;
+  border-radius: 20px;
+}
+
+.LignesPures img {
+  width: 242px;
+  height: 363px;
+}
+
+.slider {
+  background-color: red;
+  width: 392px;
+  height: auto;
+  text-align: center;
+}
 /*# sourceMappingURL=main.css.map */

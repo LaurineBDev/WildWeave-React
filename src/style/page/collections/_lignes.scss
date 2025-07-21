@@ -1,4 +1,20 @@
 .LignesPures {
-   background: url('/bgLignes.png') center/cover no-repeat;
+   background: url('/lines-pures/bgLignes.png') center/cover no-repeat;
   padding: 45px;
+}
+
+.intro-lignes {
+  background-color: rgba(255, 255, 255, 0.825);
+  width: 1318px;
+  height: 100%;
+  margin-left: 50px;
+  padding: 5px;
+  border-radius: 20px;
+  
+}
+
+
+.content-slider{
+  display: flex;
+  gap: 101px;
 }
