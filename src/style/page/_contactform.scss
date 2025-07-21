@@ -1,4 +1,63 @@
 .CForm{
     background: url('/bg.png') center/cover no-repeat;
+    padding: 15px;
+}
 
+form{
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.482);
+    border-radius: 20px;
+    width: 554px;
+    height: 570px;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 36px;
+    margin-left: 30rem;
+    label{
+        font-size: 40px;
+    }
+    input, select{
+        background-color: rgba(0, 0, 0, 0.552);
+        width: 330px;
+        height: 47px;
+        color: white;
+        border-radius: 20px;
+        border: none;
+        margin-left: 40px;
+        font-size: 20px;
+        text-align: center;
+    }
+    ::placeholder{
+        color: white; 
+    }
+}
+
+.message-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.message-container label {
+  font-size: 40px;
+  margin-bottom: 8px; 
+  text-align: start;
+  margin-left: 45px;
+}
+.message-container input{
+    width: 465px;
+    height: 153px;
+}
+
+// ============Btn =========
+
+.form-contact{
+    background-color: #6E8B6D;
+    width: 278px;
+    height: 52px;
+    border-radius: 20px;
+    border: none;
+    font-size: 30px;
+    margin-left: 7rem;
 }
