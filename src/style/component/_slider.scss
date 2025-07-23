@@ -1,10 +1,4 @@
-.slider{
-  background-color: rgba(255, 255, 255, 0.46);
-  width: 392px;
-  height: auto;
-  text-align: center;
-  margin-top: 50px;
-}
+
 
 .slider img{
   width: 242px;
@@ -25,7 +19,7 @@
 
 .slider .prev,
 .slider .next {
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: none;
   border: none;
   border-radius: 50%;
   width: 40px;
@@ -50,4 +44,15 @@
 .slider .next {
   position: relative;
   right: -20px;
+}
+
+
+
+// BriseSauvage =============
+.slider-b{
+  background-color: rgba(0, 0, 0, 0.46);
+  width: 392px;
+  height: auto;
+  text-align: center;
+  margin-top: 50px;
 }
