@@ -23,3 +23,31 @@
   margin: 10px;
 }
 
+.slider .prev,
+.slider .next {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  font-size: 24px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  margin: 10px;
+}
+
+.slider .prev:hover,
+.slider .next:hover {
+  background-color: rgba(255, 255, 255, 1);
+  transform: scale(1.1);
+}
+
+.slider .prev {
+  position: relative;
+  left: -20px;
+}
+
+.slider .next {
+  position: relative;
+  right: -20px;
+}
