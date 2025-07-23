@@ -21,17 +21,17 @@ const LignesPures = () => {
 
       <section className='slider-l'>
         <Slider images={slider2} />
-        <h1>Robe Légère</h1>
-        <h2>Fluide et confortable.</h2>
-        <h3>Lin biologique, coupe ample.</h3>
+        <h1>Chemise Lin Brut</h1>
+        <h2>Élégante et respirante.</h2>
+        <h3>Lin européen, coupe droite, mixte.</h3>
         <button className='btn-slider'>Acheter maintenant</button>
       </section>
 
       <section className='slider-l'>
         <Slider images={slider3} />
-        <h1>Accessoires Naturels</h1>
-        <h2>Faits à la main.</h2>
-        <h3>Matériaux recyclés et durables.</h3>
+        <h1>Veste Wild</h1>
+        <h2>Style casual chic.</h2>
+        <h3>Coton recyclé, fabrication locale.</h3>
         <button className='btn-slider'>Acheter maintenant</button>
       </section>
       </div>

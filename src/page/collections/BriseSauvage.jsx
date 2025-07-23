@@ -1,9 +1,9 @@
 import Slider from '../component/Slider';
 
 const BriseSauvage = () => {
-   const slider1 = ['/lines-pures/colombes.png', '/lines-pures/colombes-dos.png'];
-   const slider2 = ['/lines-pures/chemise.png', '/lines-pures/chemise-dos.png'];
-   const slider3 = ['/lines-pures/veste.png', '/lines-pures/veste-dos.png'];
+   const slider1 = ['/Brise-Sauvage/robe.png' , '/Brise-Sauvage/robe-dos.png'];
+   const slider2 = ['/Brise-Sauvage/pant.png', '/Brise-Sauvage/pant-dos.png'];
+   const slider3 = ['/Brise-Sauvage/short.png', '/Brise-Sauvage/short-dos.png'];
 
   return (
     <main className='BriseSauvage'>
@@ -13,25 +13,25 @@ const BriseSauvage = () => {
      <div className='content-slider'>
       <section className='slider-b'>
         <Slider images={slider1} />
-        <h1>Sweat Natura</h1>
-        <h2>Molleton bio, doux et chaud.</h2>
-        <h3>100% coton bio, teinture naturelle.</h3>
+        <h1>Robe Éole</h1>
+        <h2>Robe longue fluide et légère.</h2>
+        <h3>Lin biologique, coupe ample, coloris écru.</h3>
         <button className='btn-slider'>Acheter maintenant</button>
       </section>
 
       <section className='slider-b'>
         <Slider images={slider2} />
-        <h1>Robe Légère</h1>
-        <h2>Fluide et confortable.</h2>
-        <h3>Lin biologique, coupe ample.</h3>
+        <h1>Pantalon Zéphyr</h1>
+        <h2>Pantalon ample et respirant.</h2>
+        <h3>Coton bio, taille élastique, poches latérales.</h3>
         <button className='btn-slider'>Acheter maintenant</button>
       </section>
 
       <section className='slider-b'>
         <Slider images={slider3} />
-        <h1>Accessoires Naturels</h1>
-        <h2>Faits à la main.</h2>
-        <h3>Matériaux recyclés et durables.</h3>
+        <h1>Short Sirocco</h1>
+        <h2>Short confortable pour l’été.</h2>
+        <h3>Coton bio, coupe unisexe, teinture naturelle.</h3>
         <button className='btn-slider'>Acheter maintenant</button>
       </section>
       </div>
