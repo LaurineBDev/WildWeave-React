@@ -65,3 +65,32 @@
   text-align: center;
   margin-top: 50px;
 }
+
+
+// Responsive==================
+@media (max-width: 768px) {
+  .slider img {
+    width: 100%;
+    height: auto;
+  }
+
+  .btn-slider {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .slider-b, .slider-n {
+    width: 100%;
+    margin: 20px auto;
+    padding: 20px;
+  }
+
+  .slider .prev {
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+  }
+  .slider .next{
+    display: none;
+  }
+}

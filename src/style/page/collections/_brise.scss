@@ -20,3 +20,35 @@
 .slider-b h3 {
   color: white;
 }
+
+
+
+/* --- Base responsive --- */
+.BriseSauvage {
+  padding: 45px;
+}
+
+.content-slider {
+  display: flex;
+  gap: 101px;
+  flex-wrap: wrap;
+}
+
+.slider-b {
+  text-align: center;
+}
+
+/* --- Responsive Mobile --- */
+@media (max-width: 768px) {
+  .BriseSauvage {
+    padding: 20px;
+  }
+
+  .intro-sauvage {
+    width: 100%;
+    margin: 0 auto 20px auto;
+    padding: 10px;
+    font-size: 16px;
+  }
+
+}

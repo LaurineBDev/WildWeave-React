@@ -25,3 +25,19 @@
   text-align: center;
   margin-top: 50px;
 }
+
+
+/* --- Responsive Mobile --- */
+@media (max-width: 768px) {
+  .LignesPures {
+    padding: 20px;
+  }
+
+  .intro-lignes {
+    width: 100%;
+    margin: 0 auto 20px auto;
+    padding: 10px;
+    font-size: 16px;
+  }
+
+}
