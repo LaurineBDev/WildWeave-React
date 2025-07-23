@@ -8,8 +8,8 @@ const BriseSauvage = () => {
   return (
     <main className='BriseSauvage'>
       <h1 className='intro-sauvage'>
-        La collection Lignes Pures incarne notre engagement pour une mode respectueuse et élégante. Chaque pièce est conçue pour durer, en utilisant des matières nobles et des techniques respectueuses de l’environnement. Offrez-vous un style naturel et intemporel, tout en faisant un choix responsable.
-      </h1>
+        Découvrez Brise Sauvage, une collection qui célèbre la légèreté et la simplicité. Des pièces aériennes et éthiques, pensées pour laisser la nature vous habiller en toute liberté
+       </h1>
      <div className='content-slider'>
       <section className='slider-b'>
         <Slider images={slider1} />
